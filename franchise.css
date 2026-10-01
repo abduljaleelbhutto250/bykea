@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/*  ========================= navbar section =========================== */
+.bold{
+    font-size: 40px;
+    margin: 50px;
+    color: rgb(6, 150, 6);
+}
+.navbar1{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    height: 80px;
+}
+.a{
+  text-decoration: none;
+  color:rgb(6, 150, 6); ;
+    
+}
+
+
+
+
+.navbar {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  color: rgb(6, 150, 6);
+  padding: 15px 20px;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: white;
+  list-style: none;
+  top: 100%;
+}
+
+.dropdown-menu a {
+  color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.btn5{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(6, 150, 6);
+    border-radius: 10px;
+  
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 22px;
+   padding-right: 22px;
+}
+
+/* =========================== hero section =========================== */
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color:rgb(32, 172, 32);
+}
+.hero1{
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+}
+.hero1 p{
+    font-size: 19px;
+    margin-top: 25px;
+}
+
+/* =============================== bykea section =============================== */
+.bykea{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+.bykea h3{
+    font-size: 40px;
+    color: rgb(53, 50, 50);
+}
+.bykea p{
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+/* ================ why bykea setion ====================== */
+.why{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.why h3{
+    font-size: 40px;
+    margin-bottom: 50px;
+
+}
+.reasons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+  
+
+    
+}
+
+
+.reasonsi{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.reasons3{
+    margin-top: 20px;
+    background-color: white;
+    padding-top: 10px;
+     border-radius: 10px;
+
+}
+
+
+.reasonsia{
+    background-color: white;
+     border-radius: 10px;
+     padding-top: 10px;
+
+}
+.reasons7{
+    margin-top: 20px;
+    background-color: white;
+    padding-top: 10px;
+     border-radius: 10px;
+
+}
+
+.last{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.last h3{
+    font-size: 40px
+}
+.last p{
+    font-size: 20px;
+}
+.lastimg{
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+/* ========================== footer section ========================== */
+
+.footer1{
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+    background-color: rgb(19, 6, 68);
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    color: white;
+}
+.footer1 a{
+    text-decoration: none;
+    color: white;
+}
